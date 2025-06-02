@@ -1,8 +1,8 @@
 {
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start",
+    "build": "next build -p 443",
+    "start": "next start -p 443",
     "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind"
   },
   "dependencies": {
