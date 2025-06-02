@@ -4,6 +4,7 @@ import { Navbar } from 'nextra-theme-docs'
 import { ThemeSelection } from '../custom/ThemeSelection'
 
 export const SuduxuNavbar = () => {
+  
   return (
     <Navbar logo={<img src="/img/Logo.png" className='w-14 h-14' />} >
     </Navbar>
